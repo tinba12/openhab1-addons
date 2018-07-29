@@ -161,7 +161,7 @@ If you happen to miss the time window to register your PIN, the ecobee.com websi
 
 * Stop the openHAB server
 * Delete the Java Preferences storage where the tokens are kept.
-    * On Linux, this is done by deleting the specific obfuscated directory name under ~/.java/.userPrefs. If you only have one garbled directory name there, you can just rm -rf ~/.java/.userPrefs (so as to not delete something else's storage).
+    * On Linux, this is done by deleting the specific obfuscated directory name under ~/.java/.userPrefs. If you only have one garbled directory name there, you can just rm -rf /var/lib/openhab2/.java/.userPrefs (so as to not delete something else's storage).
     * On Windows, the Java Preferences are kept in the Windows Registry,
 * Restart the openHAB server
 * Register a new PIN like above
